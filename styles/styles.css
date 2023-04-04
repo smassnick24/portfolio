@@ -1,9 +1,11 @@
 html {
+    font-family: monospace;
     background: rgb(3,0,52);
     background: linear-gradient(90deg, rgba(3,0,52,1) 0%, rgba(9,9,107,1) 54%, rgba(3,129,156,1) 100%);
 }
 
 body {
+    font-family: monospace;
     background: rgb(3,0,52);
     background: linear-gradient(90deg, rgba(3,0,52,1) 0%, rgba(9,9,107,1) 54%, rgba(3,129,156,1) 100%);
 }
