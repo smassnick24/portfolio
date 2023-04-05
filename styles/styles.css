@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-    font-size: 32px;
+    font-size: 46px;
     display: flex;
     justify-content: center;
     color: aliceblue;
@@ -34,18 +34,28 @@ body {
 
 .btn-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding-bottom: 10ch;
 }
 
 .btn {
     width: 150px;
+    font-size: 20px;
+    margin-left: 5ch;
+    margin-right: 5ch;
 }
 
 .img {
     border-radius: 30px;
+    max-width: 40ch;
+    height: auto;
 }
 
 .row {
     padding-bottom: 10ch;
+}
+
+.description-container {
+    width: 900px;
+    margin: auto;
 }
