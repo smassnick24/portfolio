@@ -11,17 +11,41 @@ body {
 }
 
 .header {
+    font-size: 32px;
     display: flex;
     justify-content: center;
     color: aliceblue;
 }
 
+.container {
+    color: aliceblue;
+    text-align: center;
+}
+
+.col-left {
+    display: flex;
+    justify-content: left;
+}
+
+.col-right {
+    display: flex;
+    justify-content: right;
+}
 
 .btn-container {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 10ch;
 }
 
 .btn {
     width: 150px;
+}
+
+.img {
+    border-radius: 30px;
+}
+
+.row {
+    padding-bottom: 10ch;
 }
