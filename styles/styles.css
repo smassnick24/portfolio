@@ -47,15 +47,14 @@ body {
 
 .img {
     border-radius: 30px;
-    max-width: 40ch;
-    height: auto;
+    max-width: 80ch;
+    height: 40ch;
 }
 
 .row {
     padding-bottom: 10ch;
 }
 
-.description-container {
-    width: 900px;
-    margin: auto;
+.description {
+    margin: 0%;
 }
