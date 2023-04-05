@@ -24,12 +24,16 @@
         <a class="btn btn-outline-info" type="button" href="resume.html">Resume</a>
         <a class="btn btn-outline-info" type="button" href="research.html">Research</a>
     </div>
+    <div class="btn-container">
+        <button class="btn btn-outline-primary" type="button" onclick="animateImageLeft()">Animate Left</button>
+        <button class="btn btn-outline-primary" type="button" onclick="animateImageRight()">Animate Right</button>
+    </div>
     <br>
 
     <div class="container">
         <div class="row">
-            <div class="col-sm col-left">
-                <img class="img" src="images/financials.png" alt="Django Financials" aria-label="Django Financials Project">
+            <div class="col-sm col-left" id="animate-container">
+                <img class="img" src="images/financials.png" id="animate-left" alt="Django Financials" aria-label="Django Financials Project">
             </div>
             <div class="col-sm col-right description-container">
                 <h4 class="description">
@@ -38,7 +42,11 @@
                     This project is simple when compared to other projects yet it still is impressive for a project to be completed in a semester.
                     I do have to give credit where credit is due. To explain, most of the HTML and CSS was sourced from a tutorial series that I 
                     was following to help me get a good base for the project as I was having a hard time learning throught the provided course material.
-                    Overall, this was good as it allowed me to focus more on Django than HTML and CSS.
+                    Overall, this was good as it allowed me to focus more on Django than HTML and CSS. In terms of user experience, the users initally
+                    register an account or log in. This account is stored on a SQLite database that is saved locally on the user's machine. Then,
+                    the user has the option of registering expenses and income. Each expense and income that is registered is able to be seen on their
+                    respective pages as well as some extra pieces, such as total spent/received and the net of the totals. Then, the users have the ability
+                    to look at statistics of their money flow as well as some basic charts using the ChartJS library.
                 </h4>
             </div>
         </div>
@@ -50,20 +58,30 @@
                     of software developed for interacting with scripts. Previously in my education, my work was more traditional programming but this course
                     allowed me to see the power of a program that interacts with scripts in many, many ways. For example, I was able to create objects and 
                     create the behaviours of these objects through scripts. Some objects you aren't even able to see, and these have the most impact.
+                    In terms of user experience, the players load into the game, then are able to shoot projectiles at each other. There is a power up
+                    which is able to be collected, which empoweres the attack of the player that picked it up. Each player has three health and three lives.
+                    Once a player reaches zero health, the player loses a life and respawns on the top platform. Once one player reaches zero lives, the game
+                    is over and the players are prompted to play again or quit the application.
                 </h4>
             </div>
-            <div class="col-sm col-right">
-                <img class="img" src="images/battle-platformer.png" alt="Battle Platformer" aria-label="Battle Platformer Project">
+            <div class="col-sm col-right" id="animate-container">
+                <img class="img" src="images/battle-platformer.png" id="animate-right" alt="Battle Platformer" aria-label="Battle Platformer Project">
             </div>
         </div>
         <br>
         <div class="row">
-            <div class="col-sm col-left">
-                Priority Boarding Queyer
+            <div class="col-sm col-left" id="animate-container">
+                <img class="img" src="images/pbq.png" id="animate-left" alt="Priority Boarding Queue" aria-label="Priority Boarding Queue Project">
             </div>
             <div class="col-sm col-right">
                 <h4 class="description">
-                    description
+                    This is my Airplane Boarding Queue project from my Data Structures and Algorithms course during college. This was my final project, and 
+                    I was working with a couple of my peers for this project. This project was meant to show our knowledge of the priority queue data structure 
+                    that we had covered earlier in the semester. In addition to this, SQLite was used to create a database and store information about the individuals that were 
+                    registering for their flight. Beyond this, modulo arithmetic was used to display these people as they boarded the plane. In terms of user experienc, the user
+                    would enter their name and select their priority, then select a seat. Upon a seat being chosen, the information provided is grabbed by the program and put into 
+                    a priority queue. Once the 'board all' button is pressed, all of the fliers are stored into the database as they are popped from the queue, and subsequently
+                    boarded onto the plane.
                 </h4>
             </div>
         </div>

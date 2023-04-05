@@ -58,3 +58,15 @@ body {
 .description {
     margin: 0%;
 }
+
+#animate-container {
+    position: relative;
+}
+
+#animate-left{
+    position: absolute;
+}
+
+#animate-right {
+    position: absolute;
+}
